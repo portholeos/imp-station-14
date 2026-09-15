@@ -1017,7 +1017,7 @@
     - Passive
   - type: HTN
     rootTask:
-      task: RuminantCompound
+      task: PassiveLivestockCompound # imp: RuminantCompound -> PassiveLivestockCompound
   - type: GuideHelp
     guides:
     - Chef
@@ -1029,9 +1029,6 @@
     hungerPerBirth: 50
     sex: Female
     breedPrototype: CowSettings
-  - type: HTN
-    rootTask:
-      task: PassiveLivestockCompound
   - type: GoobAbsorbable
     biomassRestored: 0.7
   - type: CowToolProficiency #this was made for ungus, but i'm putting this here in case an admin wants to be cute and give a cow hands
